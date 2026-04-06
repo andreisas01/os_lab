@@ -36,6 +36,9 @@
             this.progress_bar_2 = new System.Windows.Forms.ProgressBar();
             this.progress_bar_3 = new System.Windows.Forms.ProgressBar();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.info_1_button = new System.Windows.Forms.Button();
+            this.info_2_button = new System.Windows.Forms.Button();
+            this.info_3_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // progress_bar_1
@@ -95,11 +98,44 @@
             this.progress_bar_3.Step = 1;
             this.progress_bar_3.TabIndex = 5;
             // 
+            // info_1_button
+            // 
+            this.info_1_button.Location = new System.Drawing.Point(761, 91);
+            this.info_1_button.Name = "info_1_button";
+            this.info_1_button.Size = new System.Drawing.Size(33, 32);
+            this.info_1_button.TabIndex = 6;
+            this.info_1_button.Text = "i";
+            this.info_1_button.UseVisualStyleBackColor = true;
+            this.info_1_button.Click += new System.EventHandler(this.info_1_button_Click);
+            // 
+            // info_2_button
+            // 
+            this.info_2_button.Location = new System.Drawing.Point(761, 176);
+            this.info_2_button.Name = "info_2_button";
+            this.info_2_button.Size = new System.Drawing.Size(33, 32);
+            this.info_2_button.TabIndex = 7;
+            this.info_2_button.Text = "i";
+            this.info_2_button.UseVisualStyleBackColor = true;
+            this.info_2_button.Click += new System.EventHandler(this.info_2_button_Click);
+            // 
+            // info_3_button
+            // 
+            this.info_3_button.Location = new System.Drawing.Point(761, 265);
+            this.info_3_button.Name = "info_3_button";
+            this.info_3_button.Size = new System.Drawing.Size(33, 32);
+            this.info_3_button.TabIndex = 8;
+            this.info_3_button.Text = "i";
+            this.info_3_button.UseVisualStyleBackColor = true;
+            this.info_3_button.Click += new System.EventHandler(this.info_3_button_Click);
+            // 
             // Threads
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(995, 450);
+            this.Controls.Add(this.info_3_button);
+            this.Controls.Add(this.info_2_button);
+            this.Controls.Add(this.info_1_button);
             this.Controls.Add(this.progress_bar_3);
             this.Controls.Add(this.progress_bar_2);
             this.Controls.Add(this.control_3_button);
@@ -121,5 +157,8 @@
         private System.Windows.Forms.ProgressBar progress_bar_2;
         private System.Windows.Forms.ProgressBar progress_bar_3;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button info_1_button;
+        private System.Windows.Forms.Button info_2_button;
+        private System.Windows.Forms.Button info_3_button;
     }
 }
