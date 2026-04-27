@@ -16,7 +16,7 @@ namespace laborator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Processes());
+            Application.Run(new ...());
         }
     }
 }
